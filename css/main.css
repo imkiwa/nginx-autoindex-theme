@@ -134,3 +134,9 @@ a[href$=".deb"]:before {
    background: url(../images/icons/deb.png);
 }
 
+/* Fonts */
+
+a[href$=".ttf"]:before {
+    background: url(../images/icons/ttf.png);
+ }
+
