@@ -1,6 +1,6 @@
 body {
     margin: 1em;
-    background-color: #f34141;
+    background-color: #9E9E9E;
 }
 
 a {
@@ -58,40 +58,79 @@ a[href$="/"]:before {
     background: url(../images/icons/folder.png);
 }
 
-/* Checksums */
+/* Source Codes */
 
-a[href$=".md5"]:before {
-    background: url(../images/icons/checksum.png);
+a[href$=".c"]:before {
+    background: url(../images/icons/c.png);
+}
+
+a[href$=".h"]:before {
+    background: url(../images/icons/c.png);
+}
+
+a[href$=".cpp"]:before {
+    background: url(../images/icons/cpp.png);
+}
+
+a[href$=".hpp"]:before {
+    background: url(../images/icons/cpp.png);
+}
+
+a[href$=".java"]:before {
+    background: url(../images/icons/java.png);
+}
+
+a[href$=".rs"]:before {
+    background: url(../images/icons/rust.png);
 }
 
 /* Compression */
 
-a[href$=".bz2"]:before {
-   background: url(../images/icons/bz2.png);
+a[href$=".zip"]:before {
+   background: url(../images/icons/zip.png);
 }
 
-a[href$=".gz"]:before {
-   background: url(../images/icons/gz.png);
+a[href$=".7z"]:before {
+   background: url(../images/icons/zip.png);
+}
+
+a[href$=".tar"]:before {
+    background: url(../images/icons/zip.png);
 }
 
 a[href$=".tar.gz"]:before {
-   background: url(../images/icons/tar.gz.png);
+    background: url(../images/icons/zip.png);
 }
 
-/* Vagrant */
+a[href$=".gz"]:before {
+    background: url(../images/icons/zip.png);
+}
 
-a[href$=".box"]:before {
-   background: url(../images/icons/vagrant.png);
+a[href$=".rar"]:before {
+    background: url(../images/icons/zip.png);
+}
+
+a[href$=".dmg"]:before {
+    background: url(../images/icons/dmg.png);
+}
+
+a[href$=".exe"]:before {
+    background: url(../images/icons/exe.png);
+}
+
+a[href$=".msixbundle"]:before {
+    background: url(../images/icons/exe.png);
+}
+
+/* Documents */
+
+a[href$=".pdf"]:before {
+   background: url(../images/icons/pdf.png);
 }
 
 /* Debian */
 
 a[href$=".deb"]:before {
-   background: url(../images/icons/debian.png);
+   background: url(../images/icons/deb.png);
 }
 
-/* Crypt */
-
-a[href$=".gpg"]:before {
-   background: url(../images/icons/crypt.png);
-}
